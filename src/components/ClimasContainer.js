@@ -16,7 +16,7 @@ class ClimasContainer extends Component {
 
   componentDidMount(){
     // AQUI PONER LINK DE HEROKU
-    axios.get('https://ux-examen2backend.herokuapp.com/api/v1/climas.json')
+    axios.get('https://ux-examen2backend.herokuapp.com/api/v1/climas')
     .then(response => {
       console.log(response);
       this.setState({climas: response.data})
