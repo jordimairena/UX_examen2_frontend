@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import axios from 'axios'
 import Clima from './Clima'
 import ClimaForm from './ClimaForm'
 import update from 'immutability-helper'
-
+import axios from 'axios'
 class ClimasContainer extends Component {
   constructor(props){
     super(props)
